@@ -1,0 +1,44 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+ul li{
+    list-style: none;
+    width: 100vw;
+    height: 33.33vh;
+}
+
+#orange,#white,#green{
+    height:100%;
+}
+
+#orange{
+    background-color: #e67e22;
+}
+
+#green{
+    background-color: #27ae60;
+}
+
+#white{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#typed{
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.typed-cursor{
+    font-size: 3em;
+}
